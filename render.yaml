@@ -4,7 +4,7 @@ databases:
     databasename: blog_sample
     user: blog_sample
 
-servises
+servises:
   - type: wewb
     name: 102401157-web
     env: python
