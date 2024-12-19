@@ -12,7 +12,7 @@ services:
     branch: production
     buildCommand: "./build.sh"
     startCommand: "gunicorn config.wsgi:application"
-    envers:
+    enVars:
       - key: PYTHON_VERSION
         value: 3.8.2
       - key: DATABASE_URL
