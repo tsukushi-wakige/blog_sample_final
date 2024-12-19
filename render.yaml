@@ -5,7 +5,7 @@ databases:
     user: blog_sample
 
 servises:
-  - type: wewb
+  - type: web
     name: 102401157-web
     env: python
     plan: free
